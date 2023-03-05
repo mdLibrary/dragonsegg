@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>06:26:30 GMT 20 JUNE 2050 - Dragon&#x27;s Egg</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="index.html">Dragon's Egg</a></li><li class="spacer"></li><li class="chapter-item affix "><a href="dedication.html">Acknowledgements</a></li><li class="chapter-item "><a href="prologue.html">Prologue</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="prologue1.html">500,000 B.C.</a></li><li class="chapter-item "><a href="prologue2.html">495,000 B.C.</a></li><li class="chapter-item "><a href="prologue3.html">3000 B.C.</a></li><li class="chapter-item "><a href="prologue4.html">1000 B.C.</a></li><li class="chapter-item "><a href="prologue5.html">2000 A.D.</a></li></ol></li><li class="chapter-item "><a href="pulsar.html">Pulsar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="pulsar1.html">THURSDAY 23 APRIL 2020</a></li><li class="chapter-item "><a href="pulsar2.html">FRIDAY 24 APRIL 2020</a></li><li class="chapter-item "><a href="pulsar3.html">FRIDAY 1 MAY 2020</a></li><li class="chapter-item "><a href="pulsar4.html">SATURDAY 2 MAY 2020</a></li><li class="chapter-item "><a href="pulsar5.html">TUESDAY 5 MAY 2020</a></li><li class="chapter-item "><a href="pulsar6.html">TUESDAY 12 MAY 2020</a></li><li class="chapter-item "><a href="pulsar7.html">TUESDAY 19 MAY 2020</a></li><li class="chapter-item "><a href="pulsar8.html">FRIDAY 22 MAY 2020</a></li><li class="chapter-item "><a href="pulsar9.html">SATURDAY 13 JUNE 2020</a></li><li class="chapter-item "><a href="pulsar10.html">SUNDAY 15 AUGUST 2032</a></li><li class="chapter-item "><a href="pulsar11.html">FRIDAY 5 NOVEMBER 2049</a></li></ol></li><li class="chapter-item "><a href="volcano.html">Volcano</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="volcano1.html">14:44:01 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano2.html">14:44:14 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano3.html">14:44:15 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano4.html">15:48:10 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano5.html">16:45:24 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano6.html">16:45:34 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano7.html">16:45:35 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano8.html">21:54:20 GMT 14 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="god.html">God</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="god1.html">22:12:30 GMT 14 JUNE 2050</a></li><li class="chapter-item "><a href="god2.html">01:15:33 GMT 15 JUNE 2050</a></li><li class="chapter-item "><a href="god3.html">01:33:23 GMT 17 JUNE 2050</a></li><li class="chapter-item "><a href="god4.html">19:24:11 GMT 17 JUNE 2050</a></li><li class="chapter-item "><a href="god5.html">10:15:02 GMT 18 JUNE 2050</a></li><li class="chapter-item "><a href="god6.html">04:02:02 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god7.html">08:00:13 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god8.html">08:00:43 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god9.html">08:00:44 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god10.html">08:03:10 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god11.html">09:10:15 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god12.html">09:45:00 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god13.html">09:50:34 GMT 19 JUNE 2050</a></li><li class="chapter-item expanded "><a href="god14.html" class="active">06:26:30 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god15.html">06:30:00 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god16.html">06:32:24 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god17.html">06:32:30 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god18.html">06:39:55 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god19.html">06:40:35 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god20.html">06:40:46 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god21.html">06:48:47 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god22.html">06:48:48 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god23.html">06:49:32 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god24.html">06:50:12 GMT 20 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="trek.html">Trek</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="trek1.html">07:54:43 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek2.html">07:54:50 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek3.html">07:56:29 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek4.html">07:56:30 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek5.html">07:56:36 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek6.html">07:56:48 GMT 20 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="contact.html">Contact</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="contact1.html">07:58:24.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact2.html">07:58:24.3 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact3.html">07:58:24.4 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact4.html">07:58:28 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact5.html">07:58:37 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact6.html">07:58:40 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact7.html">08:05:15 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact8.html">08:18:03 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact9.html">08:18:33 GMT 20 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="interaction.html">Interaction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="interaction1.html">08:42:05 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction2.html">11:16:03 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction3.html">11:20:05 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction4.html">14:28:11 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction5.html">14:28:53 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction6.html">20:29:59 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction7.html">20:30:00 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction8.html">22:26:03 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction9.html">22:30:10.0 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction10.html">22:30:11.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction11.html">22:30:12.9 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction12.html">22:30:16.3 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction13.html">22:30:17.1 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction14.html">22:30:17.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction15.html">22:30:18.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction16.html">22:30:19.3 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction17.html">22:30:20.0 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction18.html">06:13:54 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Dragon&#x27;s Egg</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="062630-gmt-monday-20-june-2050"><a class="header" href="#062630-gmt-monday-20-june-2050">06:26:30 GMT MONDAY 20 JUNE 2050</a></h1>
+<p>The Old One watched attentively as Sharp-Slicer carefully opened her laying orifice and deposited her egg at the entrance to the egg-pen. &quot;That egg does not look right,&quot; the Old One said with a combination of concern and disapproval.</p>
+<p>Sharp-Slicer looked at the egg-sac with her dozen dark red eyes. The egg was much smaller than normal, and very pale. &quot;It didn't feel right while it was growing, either,&quot; she replied. &quot;I hope it will be all right after it hatches.&quot;</p>
+<p>&quot;Don't worry, I and the other Old Ones will take good care of it,&quot; Loud-Talker said. &quot;Perhaps it will grow bigger after it hatches and can get more food.&quot;</p>
+<p>Relieved of her burden, Sharp-Slicer left the egg pen and returned to her duties as Leader of the Clan. The egg would be well taken care of by the devoted Old Ones. Within a few turns, she had forgotten all about the incident. After all, when one was as old as she was, with a half-dozen eggs contributed to the egg-pen, they all seemed to blend into one another.</p>
+<p>The pale egg got lots of attention, for all the Old Ones were very concerned about every one of the eggs entrusted to them. Loud-Talker took extra care to keep the pale little egg-sac sheltered at all times under the flared edge of skin that he used as a hatching mantle. He never forgot to roll the flattened oval sac over a full dozen times each turn, to keep the eggling inside properly exercised.</p>
+<p>Loud-Talker was at first concerned when the time for hatching came and went, but soon thereafter he could feel the eggling stir inside the sac. It was with relief that he finally felt the warm flush of fluid under his mantle as the egg sac burst and the eggling squirmed out.</p>
+<p>Loud-Talker carefully rolled the other egg-sacs away from the new hatchling while still keeping them all under his hatching mantle. He maneuvered the hatchling to the edge of his mantle and let it come out.</p>
+<p>&quot;Pink eyes!&quot; Loud-Talker exclaimed in amazement, his cool dark red eyes staring down at the small pale cheela. The dozen tiny pink eyes surrounding the white body of the new hatchling waved unsteadily as they stared up at the cold, dark sky.</p>
+<p>His t'trum of amazement brought another Old One, who had been helping in the hatchling pen. The two Old Ones looked the new hatchling over with great concern. There was obviously something wrong with it, with its small size, pink eyes, and feverishly hot pale body.</p>
+<p>&quot;I have never seen a little one like this before,&quot; said the other Old One.</p>
+<p>&quot;I have not either,&quot; Loud-Talker said. &quot;But when I was Leader of the Combined Clans, I heard from my advisors about hatchlings similar to this one. They are called Bright's Afflicted.&quot;</p>
+<p>Loud-Talker flared another section of his skin and slowly passed it up and over the little one. &quot;Why don't you take over the eggs for a while,&quot; he asked the other, &quot;while I take this little hatchling out to the hatchling pen and give him something to eat?&quot; Carefully prodding the little one along, he went out the entrance of the egg-pen to the feeding trough of the hatchling pen. There, Loud-Talker helped the hatchling put a tiny piece of pod into an intake orifice. Soon the little one was successfully finding and stuffing himself with more food, with almost no help from the Old One.</p>
+<p>Loud-Talker watched the hatchling eat. He was clumsy, but then most hatchlings were clumsy until they had practiced eating for a few turns. However, this one seemed worse than the others. Loud-Talker formed a slender tendril and moved it close to one of the hot tiny pink eyes, but the eye did not withdraw into its protective fold until the tendril was almost upon it.</p>
+<p>&quot;Poor hatchling,&quot; Loud-Talker said. &quot;I am afraid those pink eyes of yours do not serve you well.&quot; His protective instincts swelled, and from then on, the little hatchling became the special project of Loud-Talker.</p>
+<p>Pink-Eyes ate and grew, but always stayed much smaller than the other hatchlings his age. He had courage, and tried to play in the rough-and-tumble games that hatchlings play, but his poor eyesight put him at a considerable disadvantage. The part of life in the hatchling pen that he liked best was listening to the stories of the clan storyteller.</p>
+<p>Loud-Talker was the storyteller, for he had had many more experiences than the other Old Ones. After each storytelling session, the other hatchlings would rumble noisily away, pushing and shoving each other, while Pink-Eyes would stay and ask questions about life outside the hatchling pen. He questioned Loud-Talker about what it was like to be Leader of the Combined Clans and talk to a dozen greats of cheela at one time, and have them all listen quietly to the words.</p>
+<p>&quot;It must have been wonderful to have been so important, Old One Loud-Talker,&quot; Pink-Eyes said. &quot;Why did you stop being Leader?&quot;</p>
+<p>&quot;Well,&quot; Loud-Talker rumbled in wry humor, &quot;I didn't really stop. It was just that someone bigger and stronger wanted to be Leader, and after discussing it with him for a while, I decided that I didn't want to be Leader of the Combined Clans any longer.&quot; He unconsciously formed a tendril and brushed it over a scar on his hide as he went on. &quot;Besides, I was getting tired of being Leader. More and more I wanted to come and tend eggs and play with you hatchlings and tell you stories and do nothing else until I flow.&quot; Loud-Talker flared his protective mantle and brushed it over the feverish body of the eager little pale one while Pink-Eyes reflexively shrank to minimum area and reveled in the cool caress.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="god13.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="god15.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="god13.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="god15.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

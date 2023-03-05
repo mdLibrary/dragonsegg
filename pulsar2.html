@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>FRIDAY 24 APRIL 2020 - Dragon&#x27;s Egg</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="index.html">Dragon's Egg</a></li><li class="spacer"></li><li class="chapter-item affix "><a href="dedication.html">Acknowledgements</a></li><li class="chapter-item "><a href="prologue.html">Prologue</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="prologue1.html">500,000 B.C.</a></li><li class="chapter-item "><a href="prologue2.html">495,000 B.C.</a></li><li class="chapter-item "><a href="prologue3.html">3000 B.C.</a></li><li class="chapter-item "><a href="prologue4.html">1000 B.C.</a></li><li class="chapter-item "><a href="prologue5.html">2000 A.D.</a></li></ol></li><li class="chapter-item expanded "><a href="pulsar.html">Pulsar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="pulsar1.html">THURSDAY 23 APRIL 2020</a></li><li class="chapter-item expanded "><a href="pulsar2.html" class="active">FRIDAY 24 APRIL 2020</a></li><li class="chapter-item "><a href="pulsar3.html">FRIDAY 1 MAY 2020</a></li><li class="chapter-item "><a href="pulsar4.html">SATURDAY 2 MAY 2020</a></li><li class="chapter-item "><a href="pulsar5.html">TUESDAY 5 MAY 2020</a></li><li class="chapter-item "><a href="pulsar6.html">TUESDAY 12 MAY 2020</a></li><li class="chapter-item "><a href="pulsar7.html">TUESDAY 19 MAY 2020</a></li><li class="chapter-item "><a href="pulsar8.html">FRIDAY 22 MAY 2020</a></li><li class="chapter-item "><a href="pulsar9.html">SATURDAY 13 JUNE 2020</a></li><li class="chapter-item "><a href="pulsar10.html">SUNDAY 15 AUGUST 2032</a></li><li class="chapter-item "><a href="pulsar11.html">FRIDAY 5 NOVEMBER 2049</a></li></ol></li><li class="chapter-item "><a href="volcano.html">Volcano</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="volcano1.html">14:44:01 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano2.html">14:44:14 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano3.html">14:44:15 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano4.html">15:48:10 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano5.html">16:45:24 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano6.html">16:45:34 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano7.html">16:45:35 GMT 22 MAY 2050</a></li><li class="chapter-item "><a href="volcano8.html">21:54:20 GMT 14 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="god.html">God</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="god1.html">22:12:30 GMT 14 JUNE 2050</a></li><li class="chapter-item "><a href="god2.html">01:15:33 GMT 15 JUNE 2050</a></li><li class="chapter-item "><a href="god3.html">01:33:23 GMT 17 JUNE 2050</a></li><li class="chapter-item "><a href="god4.html">19:24:11 GMT 17 JUNE 2050</a></li><li class="chapter-item "><a href="god5.html">10:15:02 GMT 18 JUNE 2050</a></li><li class="chapter-item "><a href="god6.html">04:02:02 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god7.html">08:00:13 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god8.html">08:00:43 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god9.html">08:00:44 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god10.html">08:03:10 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god11.html">09:10:15 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god12.html">09:45:00 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god13.html">09:50:34 GMT 19 JUNE 2050</a></li><li class="chapter-item "><a href="god14.html">06:26:30 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god15.html">06:30:00 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god16.html">06:32:24 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god17.html">06:32:30 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god18.html">06:39:55 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god19.html">06:40:35 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god20.html">06:40:46 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god21.html">06:48:47 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god22.html">06:48:48 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god23.html">06:49:32 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="god24.html">06:50:12 GMT 20 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="trek.html">Trek</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="trek1.html">07:54:43 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek2.html">07:54:50 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek3.html">07:56:29 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek4.html">07:56:30 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek5.html">07:56:36 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="trek6.html">07:56:48 GMT 20 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="contact.html">Contact</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="contact1.html">07:58:24.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact2.html">07:58:24.3 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact3.html">07:58:24.4 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact4.html">07:58:28 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact5.html">07:58:37 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact6.html">07:58:40 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact7.html">08:05:15 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact8.html">08:18:03 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="contact9.html">08:18:33 GMT 20 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="interaction.html">Interaction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="interaction1.html">08:42:05 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction2.html">11:16:03 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction3.html">11:20:05 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction4.html">14:28:11 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction5.html">14:28:53 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction6.html">20:29:59 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction7.html">20:30:00 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction8.html">22:26:03 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction9.html">22:30:10.0 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction10.html">22:30:11.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction11.html">22:30:12.9 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction12.html">22:30:16.3 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction13.html">22:30:17.1 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction14.html">22:30:17.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction15.html">22:30:18.2 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction16.html">22:30:19.3 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction17.html">22:30:20.0 GMT 20 JUNE 2050</a></li><li class="chapter-item "><a href="interaction18.html">06:13:54 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Dragon&#x27;s Egg</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="friday-24-april-2020"><a class="header" href="#friday-24-april-2020">FRIDAY 24 APRIL 2020</a></h1>
+<p>In her sleep, Jacqueline was flying. No, not flying, but drifting through empty space. She looked down and finally realized where she was. Below her was the bright globe of the Sun. Spread out before her was the whole Solar System as seen from above. Her astronomically trained mind had placed the dream planets in their proper positions and she could almost imagine faint lines tracing out the nearly circular orbits that gave the Solar System the appearance of a bull's-eye target from this perspective. She found the tiny double-planet system that was the Earth-Moon pair and was straining to try and make out detail on the Earth when the slow, inexorable rotation of her body dragged her eyes away from the scene. Unable to turn her head around any further, she was forced to gaze upwards away from the Sun, her arms and legs outstretched in the form of an X. &quot;Just like the low frequency radio antennas sticking out of the OE probe,&quot; she thought.</p>
+<p>Soon the rotation brought her body around again and she admired the view. She finally concentrated on looking at the north pole of the Sun. She had no trouble looking at the Sun despite its brightness, and she searched for any variations on the nearly featureless surface. As she stared, she saw nothing with her eyes, but she finally began to notice weak pulsations in her arms and legs. A double pulse, triple pulse, pulse...</p>
+<p>&quot;I'm picking up the complex radio signal of the orbiting black holes!&quot; she thought, as her body continued to revolve. Soon she could no longer see the Sun, but she could still feel the pulsations in her arms and legs. Then, while staring out at right angles from the Sun, she felt a rapid tingling sensation building up in her right arm. It became stronger and stronger, nearly blotting out the slower, rhythmic pulsations. &quot;The scruff!&quot; she exclaimed, and then began to laugh at herself...</p>
+<p>&quot;Nothing like getting yourself so wrapped up in your thesis work that you dream you have become the spacecraft yourself,&quot; said Jacqueline as she sat up in her room. She looked at the bustling noonday traffic out her window and rubbed the prickles out of her right arm, restoring the circulation it had lost while trapped under her exhausted body.</p>
+<p>She was halfway through her belated breakfast when the dream surfaced again in her mind. Although she knew the spacecraft's operational characteristics almost as well as she knew the operating characteristics of her own body, it did seem strange to her that in the dream the scruff came when she was looking away from the Sun, not toward it.</p>
+<p>She thought about it for awhile, then went to her bookshelf and got down the roll she had been working on the previous night and an older one from several months ago. She unrolled a section from each of them on the floor, one above the other, and slid the old one back and forth until the slowly varying complex pattern caused by the orbital motion of the black holes was matched up on the two rolls. She then looked along both sheets and came to the noisy portions. They were different. First of all, the scruff a few months ago was significantly weaker (although that could be explained by a degrading piece of equipment or insulation), but there also seemed to be a definite shift in the position of the peak of the scruff activity with respect to the position of the Sun. She got out an even older roll, and checked it. The scruff was very weak now. In fact, she remembered that the computer had had no trouble obtaining a nice, clean spectrum from this data since the spectral energy in the noise had been so small. Again, however, there seemed to be a delay in the position of the peak intensity of the scruff.</p>
+<p>&quot;Well, this is one time when the number-crunching objectivity of the computer is orders of magnitude better than the highly subjective human hand and eye. It is back to the computer for you, Jacqueline,&quot; she said to herself. &quot;But first you have to get some more computer time from old Saw-face.&quot;</p>
+<p>Jacqueline walked across the CalTech campus to the Space Physics building. The huge edifice, built in the days when space budgets were a significant fraction of a nation's budget, was now the Space Physics building in name only. Only the basement computer room and the first floor offices contained space research activities. The remaining floors of the building had been taken over by graduate students of the Social Sciences department. If the CalTech-Jet Propulsion Laboratories combine had not been able to talk NASA, the Europeans, and the Russians into combining their dwindling national space budgets into supporting one international space research center with a single Deep Space Network, then there would be no deep space research at all.</p>
+<p>After the Americans had given up sponsoring deep space probes and the European Space Agency had broken into squabbling factions after the loss of SpaceLab, the Russian planners, without visible competition, had lowered their priority for deep space research to almost zero and concentrated their funding on manned and unmanned Earth orbital ventures. The cold war was still on, but it had degenerated into an almost automatic name-calling at the United Nations. The Russian standard of living rose, and as it did, the party planners found that they had to give more and more attention to a no-longer docile population and could not justify a separate deep space program.</p>
+<p>Jacqueline walked down the almost deserted corridors of the Space Physics building to Professor Vladimir Sawlinski's office. Jacqueline hesitated, then knocked.</p>
+<p><em>&quot;Da?&quot;</em> said a gruff voice.</p>
+<p>Jacqueline opened the door and walked in. A thin, middle-aged gentleman swiveled away from a computer screen filled with text in Cyrillic characters and turned to look at her. Jacqueline's Russian was good enough that she could tell that he was reading a science news article about the supposed discovery of a magnetic monopole in some iron ore in Nigeria.</p>
+<p>Sawlinski's clothing was unusual for a Russian. It was a tailored suit in the latest European style. Its very presence on his spare frame advertised that the wearer was a multi-cultured world traveler who was given significant freedom and even more significant financial reimbursement by a worldly wise Russian government that expected great things from him. The man's balding head bent forward as he peered over his reading glasses at the young woman.</p>
+<p>&quot;Jacqueline!&quot; Sawlinski said, his face beaming with pleasure. &quot;Do come in, young lady. How is your thesis work coming? Have you found another collapsed sub-stellar object?&quot;</p>
+<p>Jacqueline grinned inwardly at the Russian's refusal to call them miniature black holes. Unfortunately, the Americans and Englishmen who had first popularized the concept of black holes were not aware that the phrase &quot;black hole&quot; had a context in the Russian language that was not used in polite company.</p>
+<p>&quot;I have used up my account and the computer will not talk to me anymore,&quot; she said. &quot;I thought I had plenty of computer time left, at least for another month of work, but a retroactive intercurrency adjustment canceled it out.&quot;</p>
+<p>Professor Sawlinski flinched. He had been afraid of something like that. His budget from the Soviet Academy was quite limited, but worst of all, it was in rubles. Now that the Chinese and Russians were heating up the border war in Mongolia again, the Russian ruble had been falling fast in the international money markets. He had been glad to have Jacqueline working for him, for she came free. As one of its few full-time graduate fellows, ESA paid all her expenses. When he had come to America to work in the International Space Institute, he had despaired of being able to afford any graduate student help, so getting Jacqueline had been a lucky break. She was smart (and pretty besides).</p>
+<p>&quot;All right,&quot; he sighed. &quot;I will transfer more money from my main account. But my account will also be depleted by the same adjustment. I am afraid that this means that I won't be able to go to the Verona conferences this summer.&quot; He turned to the computer terminal at his desk and carried out a short dialog with the financial account program.</p>
+<p>He turned after a minute and said, &quot;The computer will now talk to you again. However, please be prudent in what you ask it to do, for the rubles are getting scarce.&quot;</p>
+<p>&quot;Thank you, Professor Sawlinski,&quot; Jacqueline replied. &quot;However, I still have much work to do to finish my thesis. As of now, I cannot find any other periodic signals in the data. Also, the records from the probe are getting worse. The noise on the traces is growing in amplitude, and I have to throw out a good portion of the data. The noise itself is interesting though. I went back through some old traces and I find it is not only increasing in amplitude but the peak seems to shift in time with respect to the radio signals from the Sun.&quot;</p>
+<p>&quot;<em>Da,</em> the 'scruff,' as you call it,&quot; he said. &quot;It is not going away, but getting worse? Well, we should not expect much from a spacecraft that is so old.&quot;</p>
+<p>&quot;But the shift with time is strong evidence that the scruff is not generated by the Sun,&quot; Jacqueline protested. &quot;I think we ought to look into it.&quot;</p>
+<p>&quot;I can think of many mechanisms whereby the failing electronics on the spacecraft could produce this static,&quot; he replied with a smile. &quot;We want you to get your thesis done without spending too many of my precious rubles, so I think we ought to concentrate on the analysis of the radio data that is not bothered by the noise.&quot;</p>
+<p>&quot;But it would not take long for me to have the computer go back through the data and get a good estimate of the drift,&quot; she said. Then remembering the tingling in her right arm, she suddenly became sure of something else, although it was against all logic that her position in bed in Pasadena had anything to do with an inanimate spacecraft cruising through space two hundred astronomical units away. Yet many a scientific idea had first surfaced in a dream of the researcher. Perhaps her subconscious was trying to tell her something.</p>
+<p>&quot;I am almost positive that the scruff is being picked up by just one of the four antenna wires,&quot; she said eagerly. &quot;If I could get the engineers to switch the data collection mode to read each antenna separately...&quot;</p>
+<p>&quot;Nyet!&quot; boomed Professor Sawlinski. &quot;Paying the Deep Space Network to point their antennas to a given spacecraft to collect a one hour prearranged data dump is expensive enough. Do you realize how much it costs to send a command to a spacecraft?&quot;</p>
+<p>She started to speak, but Sawlinski cut her off as he dropped his recently acquired &quot;American Professor&quot; image and reverted to his autocratic old school Russian stance. <em>&quot;Nyet! Nyet! Nyet!&quot;</em> he said as he turned his back on her and switched on his computer console. &quot;<em>Do svidaniya</em>, Mademoiselle Carnot.&quot;</p>
+<p>Jacqueline started to speak, but realized that the interview was over. She seethed inwardly, but finally decided to leave and take her frustrations out on the computer. At least he had transferred the money to her account before he had turned her off. Quietly closing the door behind her, she made her way downstairs to the computer console room.</p>
+<p>&quot;I wonder how much a command change really does cost?&quot; she thought as she made her way down the steps. &quot;I will go out to Jet Propulsion Laboratories, talk to the Deep Space Network engineers and find out if it is as expensive as he thinks it is.&quot;</p>
+<p>With the computer glad to see her again, now that she had money in her account, she read in the figures that she had laboriously extracted the previous evening. She then ran an analysis of the collected data. The peaks in the power spectral density curve were still in four families. The four lowest peaks were the fundamental orbital frequencies of the four black holes, while the higher harmonics were evidence of the slight ellipticity of the orbits. The basic pattern had not changed for decades. Although the black holes were orbiting in the interior of the Sun where the densities were hundreds and thousands of times greater than water, as far as the ultra-dense black holes were concerned, they were orbiting in a near vacuum.</p>
+<p>She searched carefully between the four lowest spikes, but could find no evidence of another peak. She had the computer repeat her search, and it came up with three two-sigma candidates, but they looked like noise to her and a quick check with a random half-data set proved her right. She was through for the time being, for a data dump was not scheduled for another week. But while she was on the computer, she decided to have another look at the noise problem.</p>
+<p>She first wrote a program to extract the noisy portions from the data sets, then to find the maximum of the amplitude of the scruff (which was a hard concept for the computer to grasp), then to plot the phase of the scruff maximum with respect to the position of the Sun. In the process, she learned that the spin rate of the satellite had increased slightly in the past years, somehow gaining angular momentum from the solar wind and light pressure.</p>
+<p>Further examination of the drift of the phase and some calculations of the orientation of the spacecraft with respect to the Sun found that the peak in the scruff stayed constant with respect to the distant stars.</p>
+<p>&quot;That means that whatever the source of the noise, it is outside the Solar System!&quot; Jacqueline exclaimed.</p>
+<p>Then she realized that she had never asked herself what the &quot;scruff&quot; really looked like. On the hardcopy printout of the reconstituted analog signal from the spacecraft, the scruff just looked like random fuzz. She cleared the screen and called up the latest data dump. The curve of the low frequency radio readout wound its familiar way across the screen. She stopped it as she came to the maximum of the scruff. The scruff was so strong in this section that it often saturated the screen.</p>
+<p>She called on a section of the data analysis program that she had seldom used before, and a small section of the data was expanded on the screen. The hours-long humps that were the subject of her thesis were now stretched out so much that only a portion of one of them could fit into the screen. The scruff now dominated the screen and looked as noisy and nasty as ever. She called for another expansion, and the computer activated an override warning circuit.</p>
+<pre><code>WARNING!
+PLOT SCALE INCOMPATIBLE WITH DATA DIGITALIZATION RATE.
+PLEASE CONFIRM COMMAND.
+</code></pre>
+<p>Jacqueline hesitated slightly, then hit the confirm key. Immediately a set of almost random dots filled the screen. The short-term variation from point to point was strong, but the general amplitude level seemed to rise and fall slowly, with a period of many minutes.</p>
+<p>Again, she called on the computer to carry out an operation on the data that she had never used before. She had been interested solely in the variations of the data with periods of weeks to days. Now she asked it to carry out a harmonic analysis with periods of seconds. Again the computer complained.</p>
+<pre><code>WARNING!
+SPECTRAL ANALYSIS SCALE INCOMPATIBLE WITH DATA DIGITALIZATION RATE.
+PLEASE CONFIRM COMMAND.
+</code></pre>
+<p>There was no hesitation this time: Jacqueline had hit the confirm key long before the computer had printed its objections. The spectral analysis plot flashed on the screen. There was a large spike around one Hertz that represented the one per second data digitalization rate, but at 0.005 Hertz there was a strong spike, indicating a periodic fluctuation with a 200-second period. However, the 200-second variation could have been caused by a beating between the one Hertz data sampling rate of the spacecraft and some high frequency oscillation that was close to some harmonic of the sampling rate. Jacqueline felt from the behavior of the data that a high frequency variation was causing the scruff, but it would be hard to prove it with the spacecraft sampling rate set at one sample per second.</p>
+<p>Jacqueline, her enthusiasm finally exhausted by confusion and sleepiness, dropped the hardcopy printouts of the data into Professor Sawlinski's mailbox and went off to bed. She again had a dream about flying above the Solar System, only this time she was whirling around rapidly. She awoke feeling dizzy, then went back to sleep to dream ordinary, quickly forgotten dreams.</p>
+<p>After awakening the next day, Jacqueline went by Professor Sawlinski's office. His door was open, and her data sheets were spread out on his desk. He was talking with Professor Cologne, the astrophysicist.</p>
+<p>&quot;This high frequency scruff is definitely not random noise, for there is evidence of a strong periodicity of 199 milliseconds, or a little over five cycles per second. The beating between the 199-millisecond pulsations and the one-Hertz data sampling rate gives it the 200-second beat pattern. However, it is not a 200-second fluctuation because the engineering interruptions in the science data are not exactly an even number of seconds long, and the 200-second beat starts with a new phase after each engineering readout. If you take enough data, and do an analysis of it, you find the 199-millisecond periodicity.&quot;</p>
+<p>As he spoke, Professor Sawlinski held up Jacqueline's printout. Professor Cologne studied it briefly, then returned it with the comment, &quot;It has all the earmarks of a pulsar, but there just isn't any known pulsar of that frequency. I would suspect the spacecraft somehow has found a way to become a low frequency radio oscillator.&quot;</p>
+<p>Professor Sawlinski saw her standing in the door. &quot;Ah, Jacqueline, come in. I was just showing Professor Cologne our latest data. I have decided that we ought to arrange to have the data digitalization rate increased to at least ten times per second, so we can obtain a better idea of the time varying nature of these pulsations.&quot;</p>
+<p>&quot;But the cost...&quot; Jacqueline interjected.</p>
+<p>&quot;Yes, it will cost some money, but by the time the computer billing gets to us, we will be well into the new planning year,&quot; he replied. &quot;Could you visit the JPL people and arrange for the change?&quot;</p>
+<p>&quot;<em>Nom de Dieu</em>!&quot; muttered Jacqueline under her breath. &quot;First, not enough money, and now plenty of money.&quot;</p>
+<p>Aloud, she replied, &quot;Yes, Professor Sawlinski. Do you also want to try reading out the antennas sequentially?&quot;</p>
+<p><em>&quot;Nyet!&quot;</em> he replied brusquely. &quot;How many times must I remind you, only change one parameter at a time in an experiment!&quot;</p>
+<p>&quot;Yes, Professor,&quot; she said, and practically bowed her way out of the office.</p>
+<p>Once in the hall, she found herself automatically heading down the stairs to the computer room. She stopped and started to turn back to go to JPL, but then she decided to spend a little more time learning how the spacecraft command system operated. She felt that perhaps she could not only satisfy Professor Sawlinski, but also her own curiosity.</p>
+<p>After a few hours spent browsing through the engineering handbooks, she smiled and headed up the stairs, where she caught the CalTech jitney bus to JPL. Sawlinski's name moved her swiftly through the administrative maze and she shortly was assigned to Donald Niven, one of the JPL project managers.</p>
+<p>When she walked into the office she had been directed to, she saw a chunky young man with neatly trimmed dark hair and the slacks, sports coat, and tie that seemed to be the professional uniform of the engineers at JPL. She guessed that he was in his late twenties. She had thought that a project manager would be someone older, but as their conversation proceeded, she could tell from his cool, calm, methodical questions that, despite his age, he had acquired years of experience in the Deep Space Network organization. Their discussion was half technical, half financial.</p>
+<p>&quot;So the length or complexity of the command has almost no bearing on the cost?&quot; she asked.</p>
+<p>&quot;That's right,&quot; Donald said. &quot;So that groups like yours could plan their expenditures, we worked out a standard rate for each command cycle.&quot;</p>
+<p>&quot;Suppose a command has a series of steps in it?&quot; she asked.</p>
+<p>&quot;As long as the steps are something for the spacecraft computer to go through and do not involve us, then the charge is the same for one or ten steps,&quot; he replied. &quot;What do you have in mind?&quot;</p>
+<p>Jacqueline got out her program sheets. Donald swung his computer console around so they could both look at it. He typed in the code for the OE spacecraft operations manual.</p>
+<p>&quot;The first thing I want to do is to increase the low frequency radio data digitalization rate to its maximum,&quot; she said. &quot;Then, after a week of high rate data collection, I want to have the data taken alternately with the four antennas, each one taking data for one minute at a time. After that, I want to have the X-ray telescope reactivated. It has a one-degree field of view, and I want it to scan between these two angles at a rate of one degree per day.&quot; Jacqueline handed over the sheet of paper and he took it.</p>
+<p>&quot;I see these are in spacecraft coordinates,&quot; he said, his opinion of the young woman increasing with every second. &quot;Thanks for taking the trouble to convert them for me.&quot;</p>
+<p>&quot;It was no trouble,&quot; she replied calmly. &quot;I have been living with that spacecraft so long that I practically think like it.&quot;</p>
+<p>Together they worked out the command procedure, and Donald transferred it to the programming section. The computer would actually do the programming, but the programmers had to take the computer result through several tests to make sure that some bugs had not crept into the computer simulation in the decades since the spacecraft had been launched.</p>
+<p>&quot;I'll give you a call when the command is ready,&quot; Donald said. &quot;It'll be a few days before the formal procedure is finished. Fortunately, I don't think we will have any trouble getting permission from the sponsoring agency. Although the experiment package was built by ESA, the spacecraft itself was built by the Russians, so the authority for command changes rests with the Soviet Academy of Science, and Professor Sawlinski's name should be good enough for them. Do you have a telephone number where I can reach you?&quot;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="pulsar1.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="pulsar3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="pulsar1.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="pulsar3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
